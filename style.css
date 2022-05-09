@@ -1,0 +1,45 @@
+* {
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+#container a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.4s;
+}
+
+#container h1:hover {
+    transform: scale(1.25) translateX(10px);
+    background-color: crimson;
+    border-radius: 10px;
+    padding: 4px;
+    margin: 10px;
+}
+
+#container a:hover {
+    color: white;
+}
+
+#container h1 {
+    transition: all 0.4s;
+    margin: 2px;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 2px auto;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 20%;
+    left: 45%;
+}
+
+#divider {
+    background-color: black;
+    height: 100%;
+}
+
+#links {
+    margin-left: 10px;
+}
