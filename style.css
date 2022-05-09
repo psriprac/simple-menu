@@ -27,12 +27,12 @@
 
 #container {
     display: grid;
-    grid-template-columns: 2px auto;
+    grid-template-columns: 200px 2px auto;
     position: absolute;
     align-items: center;
     justify-content: center;
     top: 20%;
-    left: 45%;
+    left: 40%;
 }
 
 #divider {
@@ -42,4 +42,14 @@
 
 #links {
     margin-left: 10px;
+}
+
+#side-image {
+    max-height: 400px;
+    max-width: 100%;
+    padding: 10px;
+}
+
+img[src="pasta.jpg"] {
+    max-width: 100%;
 }
